@@ -1,0 +1,49 @@
+body, div, html {
+    margin: 0;
+    padding: 0;
+  }
+.inStock {
+    display: flex;
+    justify-content: space-between;
+    background-color: #aaa;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    font-family: Helvetica;
+  }
+  body {
+    min-height: 100vh;
+    padding: 30px; 
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  hr {
+      margin: 0;
+      width: 50px;
+  }
+  #clickMe {
+      margin: 10px 0 0 0;
+    background-color: darkgray;
+    display: inline-block;
+    padding:10px;
+    font-family: Helvetica;
+    border-radius: 3px;
+    padding-top: 10px;
+  }
+  #clickMe:hover {
+    cursor: pointer;
+  }
+  .toggleDarkMode {
+    background-color: #034;
+    color: white;
+  }
+  .inStock div {
+    flex-basis: 33%;
+  }
+  .toggleDarkMode .inStock {
+      background-color: black;
+  }
+  .toggleDarkMode #clickMe {
+      background-color: black;
+  }
+
+  
